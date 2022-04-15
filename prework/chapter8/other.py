@@ -1,6 +1,8 @@
 def print_models(x, y):
-    """Simulate printing each design, until none are left.
-       Move each design to y after printing."""
+    """
+    Simulate printing each design, until none are left.
+    Move each design to y after printing.
+    """
     while x:
         current_design = x.pop()
         print("Printing model: " + current_design)
