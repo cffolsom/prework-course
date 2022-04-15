@@ -1,0 +1,5 @@
+count = list(range(1,1000001))
+min = min(count)
+max = max(count)
+sum =sum(count)
+print (min, + max, + sum)
